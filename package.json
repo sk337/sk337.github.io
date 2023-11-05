@@ -9,7 +9,7 @@
     "build": "bun build --target=browser --outdir=dist --target=browser --minify --sourcemap=inline src/main.js && cp static/* dist/",
     "postbuild": "cp -r static/* dist/ && cp -r .well-known/ dist/",
     "prebuildnpx": "npm run prebuild",
-    "buildnpx": " npx bun build --target=browser --outdir=dist --target=browser --minify --sourcemap=external src/main.js",
+    "buildnpx": " npx bun build --target=browser --outdir=dist --target=browser --minify --sourcemap=none src/main.js",
     "postbuildnpx": "cp -r static/* dist/ && cp -r .well-known/ dist/"
   },
   "devDependencies": {
