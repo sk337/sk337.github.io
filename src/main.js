@@ -1,4 +1,5 @@
 import startSparkle from "./sparkle";
+import commit from "./commit.txt";
 import Analytics from "analytics";
 import googleTagManager from "@analytics/google-tag-manager";
 
@@ -12,6 +13,8 @@ library.add(fab, far, fas);
 dom.i2svg();
 
 startSparkle();
+
+document.getElementById("commit").innerText = commit.substring(0,6);
 
 const analytics = Analytics({
   app: "GHPages",
