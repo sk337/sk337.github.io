@@ -1,10 +1,11 @@
-name: NodeJS with Bun
+name: buils
+
 
 on:
+  workflow_dispatch:
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+    branches:
+    - main
 
 jobs:
   build:
