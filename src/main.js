@@ -1,14 +1,17 @@
-import Analytics from 'analytics'
-import googleTagManager from '@analytics/google-tag-manager'
+import startSparkle from "./sparkle";
+import Analytics from "analytics";
+import googleTagManager from "@analytics/google-tag-manager";
+
+startSparkle();
 
 const analytics = Analytics({
-  app: 'GHPages-sk337',
+  app: "GHPages",
   plugins: [
     googleTagManager({
-      containerId: 'G-EWV71796EL'
-    })
-  ]
-})
+      containerId: "G-EWV71796EL",
+    }),
+  ],
+});
 
 /* Track a page view */
-analytics.page()
+analytics.page();
