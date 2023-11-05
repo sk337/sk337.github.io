@@ -1,12 +1,17 @@
 {
   "dependencies": {
     "@analytics/google-tag-manager": "^0.5.5",
+    "@fortawesome/fontawesome-free": "^6.4.2",
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/free-regular-svg-icons": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "analytics": "^0.8.9",
     "bun": "^1.0.9"
   },
   "scripts": {
     "prebuild": "rm -rf dist/",
-    "build": "bun build --target=browser --outdir=dist --target=browser --minify --sourcemap=inline src/main.js && cp static/* dist/",
+    "build": "bun build --target=browser --outdir=dist --target=browser --minify --sourcemap=external src/main.js && cp static/* dist/",
     "postbuild": "cp -r static/* dist/ && cp -r .well-known/ dist/",
     "prebuildnpx": "npm run prebuild",
     "buildnpx": " npx bun build --target=browser --outdir=dist --target=browser --minify --sourcemap=none src/main.js",
