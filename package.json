@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "bun": "^1.0.9"
+  },
+  "scripts": {
+    "prebuild":"rm -rf dist/",
+    "build": "bun build --target=browser --outdir=dist --target=browser --minify --sourcemap=external src/main.js && cp static/* dist/",
+    "buildnpx": "npm run prebuild && npx bun build --target=browser --outdir=dist --target=browser --minify --sourcemap=external src/main.js && cp static/* dist/"
+  }
+}
