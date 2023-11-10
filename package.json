@@ -19,5 +19,10 @@
   },
   "devDependencies": {
     "eslint": "^8.53.0"
-  }
+  },
+  "name": "sk337.github.io",
+  "description": "> My personal website",
+  "version": "1.0.0",
+  "author": "",
+  "license": "ISC"
 }
