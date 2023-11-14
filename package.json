@@ -10,12 +10,14 @@
     "bun": "^1.0.9"
   },
   "scripts": {
-    "prebuild": "rm -rf dist/ && cp .git/refs/heads/main src/commit.txt",
+    "prebuild": "rm -rf dist/",
     "build": "bun build --target=browser --outdir=dist --target=browser --minify --sourcemap=inline src/main.js && cp static/* dist/",
-    "postbuild": "cp -r static/* dist/ && cp -r .well-known/ dist/ && rm src/commit.txt",
+    "postbuild": "cp -r static/* dist/ && cp -r .well-known/ dist/",
     "prebuildnpx": "npm run prebuild",
     "buildnpx": " npx bun build --target=browser --outdir=dist --target=browser --minify --sourcemap=none src/main.js",
-    "postbuildnpx": "cp -r static/* dist/ && cp -r .well-known/ dist/"
+    "postbuildnpx": "cp -r static/* dist/ && cp -r .well-known/ dist/",
+    "preserve": "npm run build",
+    "serve": "cd dist && python3 -m http.server"
   },
   "devDependencies": {
     "eslint": "^8.53.0"

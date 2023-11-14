@@ -1,20 +1,17 @@
 import startSparkle from "./sparkle";
-import commit from "./commit.txt";
 import Analytics from "analytics";
 import googleTagManager from "@analytics/google-tag-manager";
 
 import {library, dom} from "@fortawesome/fontawesome-svg-core";
 import {fab} from "@fortawesome/free-brands-svg-icons";
-import {far} from "@fortawesome/free-regular-svg-icons";
-import {fas} from "@fortawesome/free-solid-svg-icons";
+// import {far} from "@fortawesome/free-regular-svg-icons";
+// import {fas} from "@fortawesome/free-solid-svg-icons";
 
-library.add(fab, far, fas);
+library.add(fab);
 
 dom.i2svg();
 
 startSparkle();
-
-document.getElementById("commit").innerText = commit.substring(0,6);
 
 const analytics = Analytics({
   app: "GHPages",
