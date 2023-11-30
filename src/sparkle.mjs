@@ -7,7 +7,7 @@ function startSparkle() {
   var y = 300;
   var oy = 300;
   // var swide = 800;
-  var shigh = 600;
+  var shigh = 1000;
   var sdown = 0;
   var sleft = 0;
   var tiny = new Array();
