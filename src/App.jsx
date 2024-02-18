@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/card";
 
 import sword from "@/swordlogo.png";
-import Logo from "./BiteLogo.svg?react";
+import Logo from "./Bite.svg?react";
 
 function App() {
   function toggleTheme() {}
