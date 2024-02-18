@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <linearGradient id="gradient-1-0" gradientUnits="userSpaceOnUse" x1="249.997" y1="-120.795" x2="249.997" y2="623.269" gradientTransform="matrix(0.859423, -0.511264, 0.33673, 0.566034, -64.173929, 198.954268)" xlink:href="#gradient-1"/>
+    <linearGradient id="gradient-1" bx:pinned="true">
+      <stop offset="0" style="stop-color: rgb(65, 209, 255);"/>
+      <stop offset="1" style="stop-color: rgb(189, 52, 254);"/>
+    </linearGradient>
+    <linearGradient id="gradient-1-1" gradientUnits="userSpaceOnUse" x1="254.449" y1="82.133" x2="254.449" y2="393.521" gradientTransform="matrix(0.859219, -0.511605, 0.804973, 1.351914, -174.740141, 22.159128)" xlink:href="#gradient-1"/>
+    <linearGradient id="paint1_linear" x1="194.651" y1="8.81818" x2="236.076" y2="292.989" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.171732, 0, 0, 1.221817, -51.323287, 35.309669)">
+      <stop stop-color="#FFEA83"/>
+      <stop offset="0.0833" stop-color="#FFDD35"/>
+      <stop offset="1" stop-color="#FFA800"/>
+    </linearGradient>
+  </defs>
+  <text style="fill: url('#gradient-1-0'); font-family: 'Google Sans'; font-size: 595px; font-weight: 700; white-space: pre;" x="49.486" y="451.748">B</text>
+  <rect x="163.377" y="82.133" width="182.145" height="311.388" style="fill: url('#gradient-1-1'); stroke: rgba(0, 0, 0, 0);"/>
+  <path d="M 291.954 37.234 L 132.406 69.833 C 129.784 70.37 127.84 72.687 127.684 75.467 L 117.87 248.31 C 117.638 252.381 121.224 255.54 125.034 254.623 L 169.455 243.935 C 173.611 242.935 177.366 246.752 176.513 251.11 L 163.314 318.496 C 162.426 323.033 166.51 326.911 170.757 325.565 L 198.194 316.872 C 202.449 315.527 206.533 319.416 205.635 323.956 L 184.661 429.805 C 183.35 436.424 191.795 440.034 195.317 434.359 L 197.669 430.568 L 327.678 160.024 C 329.855 155.493 326.102 150.328 321.329 151.289 L 275.607 160.49 C 271.31 161.354 267.655 157.182 268.867 152.798 L 298.709 44.923 C 299.923 40.531 296.255 36.354 291.954 37.234 Z" fill="url(#paint1_linear)" style=""/>
+</svg>

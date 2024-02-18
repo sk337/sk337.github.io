@@ -12,3 +12,7 @@ language = "nodejs"
 run = ["sh", "-c", "npm run dev"]
 deploymentTarget = "cloudrun"
 ignorePorts = false
+
+[[ports]]
+localPort = 5173
+externalPort = 80

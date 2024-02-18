@@ -10,6 +10,7 @@ import {
 } from "@/components/ui/card";
 
 import sword from "@/swordlogo.png";
+import Logo from "./BiteLogo.svg?react";
 
 function App() {
   function toggleTheme() {}
@@ -45,7 +46,7 @@ function App() {
             </CardFooter>
           </Card>
         </a>
-        <a href="https://www.pk3.zip">
+        <a href="https://pk3.zip">
           <Card className="mb-5">
             <CardHeader>
               <CardTitle>Portfolio</CardTitle>
@@ -56,7 +57,7 @@ function App() {
             <CardContent>
               <Avatar className="w-full h-full">
                 <AvatarImage src="https://github.com/sk337.png" />
-                <AvatarFallback>s7</AvatarFallback>
+                <AvatarFallback>sk</AvatarFallback>
               </Avatar>
             </CardContent>
             <CardFooter>
@@ -67,6 +68,20 @@ function App() {
                 GitHub
               </a>
             </CardFooter>
+          </Card>
+        </a>
+        <a href="https://github.com/sk337/bite">
+          <Card>
+            <CardHeader>
+              <CardTitle>Bite</CardTitle>
+              <CardDescription>
+                A Work in Progress Vite inspired front end framework writtem with
+                the Bun runtime
+              </CardDescription>
+            </CardHeader>
+            <CardContent>
+              <Logo />
+            </CardContent>
           </Card>
         </a>
         <p className="text-center text-2xl font-bold p-5">Contact</p>
@@ -81,7 +96,10 @@ function App() {
             @1gn
           </a>
           <br />
-          Email: Soon
+          Email:{" "}
+          <a href="mailto:me@pk3.zip" className="underline">
+            me@pk3.zip
+          </a>
         </p>
       </div>
     </main>
