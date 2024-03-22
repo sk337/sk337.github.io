@@ -75,13 +75,23 @@ function App() {
             <CardHeader>
               <CardTitle>Bite</CardTitle>
               <CardDescription>
-                A Work in Progress Vite inspired front end framework writtem with
-                the Bun runtime
+                A Work in Progress Vite inspired front end framework writtem
+                with the Bun runtime
               </CardDescription>
             </CardHeader>
             <CardContent>
               <Logo />
             </CardContent>
+          </Card>
+        </a>
+        <a href="https://calamidle.pk3.zip">
+          <Card>
+            <CardHeader>
+              <CardTitle>Calamidle</CardTitle>
+              <CardDescription>
+                Calamity wordle game inspired by terrdle
+              </CardDescription>
+            </CardHeader>
           </Card>
         </a>
         <p className="text-center text-2xl font-bold p-5">Contact</p>
